@@ -9,14 +9,26 @@ The codes are mostly in Matlab and Python. When needed, FEA simulations are run 
 CAD files of the problems. 
 
 Chapters covered:
+
   1- Introduction—Concept of Stress
+  
   2- Stress and Strain—Axial Loading
+  
   3- Torsion
+  
   4- Pure Bending
+  
   5- Analysis and Design of Beams for Bending
+  
   6- Shearing Stresses in Beams and Thin-Walled Members
+  
   7- Transformations of Stress and Strain
+  
   8- Principal Stresses under a Given Loading
+  
   9- Deflection of Beams
+  
   10- Columns
+  
   11- Energy Methods
+  
