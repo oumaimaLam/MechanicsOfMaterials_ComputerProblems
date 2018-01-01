@@ -6,8 +6,6 @@ A free copy of the book is available here: http://www.pwut.ac.ir/FA/Colleges/Col
 
 The codes are mostly in Matlab and Python. When needed, FEA simulations are run in SolidWorks and/or ANSYS and screenshots are attached to the files.
 
-CAD files of the problems. 
-
 Chapters covered:
 
   1- Introduction—Concept of Stress
