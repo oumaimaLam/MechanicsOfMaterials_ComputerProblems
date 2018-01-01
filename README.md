@@ -8,7 +8,7 @@ The codes are mostly in Matlab and Python. When needed, FEA simulations are run 
 
 Chapters covered:
 
-  1- Introduction—Concept of Stress
+  1- Introduction—Concept of Stress (1-2)
   
   2- Stress and Strain—Axial Loading
   
