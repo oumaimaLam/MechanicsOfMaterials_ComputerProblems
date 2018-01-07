@@ -99,12 +99,11 @@ for i=1:21
     sigma_bc=-(F_bc/A_bc);
     Tau_A=F_ab/(2*A_pin);
     Tau_C=F_bc/(2*A_pin);
-    sigma_bearing_a=F_ab/(d(i)*t);
-    sigma_bearing_c=F_bc/(d(i)*t);
-    sigma_bearing_b=F_bc/(2*d(i)*t);
+    sigma_bearing_a=F_ab/()
+    sigma_bearing_c
+    sigma_bearing_b
     %print the results
-    fprintf('%2.2f\t%5.2f     %5.2f\t%8.2f   %8.2f\t   %8.2f\t   %8.2f\t%8.2f\n', d(i), sigma_ab, sigma_bc, Tau_A, Tau_C, sigma_bearing_a, sigma_bearing_c, sigma_bearing_b);
-end
+    fprintf('%');
 
 
 
