@@ -106,6 +106,48 @@ for i=1:21
     fprintf('%2.2f\t%5.2f     %5.2f\t%8.2f   %8.2f\t   %8.2f\t   %8.2f\t%8.2f\n', d(i), sigma_ab, sigma_bc, Tau_A, Tau_C, sigma_bearing_a, sigma_bearing_c, sigma_bearing_b);
 end
 
+%%
+% Problem 4:
+%Take input from user
+P=input('Force applied on the member in [kip]: ');
+F_ult=input('Ultimate load of the cable in [kips]: ');
+fprintf('\t\t\t\tValues of Factor of Safety\n')
+fprintf('--------------------------------')
+fprintf('\t\t\t\tBETA\n');
+fprintf('--------------------------------')
+
+ind=0;
+for i=atand(0:0.1:1)
+    val=i.*(pi/180);
+    ind=ind+1;
+    alpha(ind,1)=val;
+end
+
+%calculate factor of safety for differnt angles.
+
+for j=1:1:ind
+    for k=1:1:ind
+        beta(1,k)=alpha(K,1);
+        F(j,k)=P*(((15*sin(alpha(j,1)))+(30*cos(alpha(j,1))))/((15*cos(beta(1,k)))+(12*sin(beta(1,k)))));
+        FS(j,k)=F_ult/F(j,k);
+    end
+end
+
+%print values
+for j=1:1:ind+1
+    for k=1:1:ind+1
+        if j==1 && k==1
+            fprintf('ALPHA');
+        elseif j==1 && k>1
+            fprintf('\n%4.2f', beta(j,k-1)*180/pi);
+        elseif j>1 && k==1
+            fprintf('\n%4.2f\t', alpha(j-1,k)*180/pi);
+        elseif j>1 && k>1
+            fprintf('%4.3f\t', FS(j-1,k-1));
+        else
+        end
+    end
+end
 
 
 
