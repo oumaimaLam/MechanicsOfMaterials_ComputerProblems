@@ -123,7 +123,7 @@ for i=atand(0:0.1:1)
     alpha(ind,1)=val;
 end
 
-%calculate factor of safety for differnt angles.
+%calculate factor of safety for different angles.
 
 for j=1:1:ind
     for k=1:1:ind
