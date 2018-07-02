@@ -8,25 +8,25 @@ The codes are mostly in Matlab and Python. When needed, FEA simulations are run 
 
 ### Chapters covered:
 
-  1- [x] Introduction—Concept of Stress (1-2)
+  1. * [x] Introduction—Concept of Stress (1-2)
   
-  2- [ ] Stress and Strain—Axial Loading
+  2. * [ ] Stress and Strain—Axial Loading
   
-  3- [ ] Torsion
+  3. *  [ ] Torsion
   
-  4- [ ] Pure Bending
+  4. * [ ] Pure Bending
   
-  5- [ ] Analysis and Design of Beams for Bending
+  5. * [ ] Analysis and Design of Beams for Bending
   
-  6- [ ] Shearing Stresses in Beams and Thin-Walled Members
+  6. * [ ] Shearing Stresses in Beams and Thin-Walled Members
   
-  7- [ ] Transformations of Stress and Strain
+  7. * [ ] Transformations of Stress and Strain
   
-  8- [ ] Principal Stresses under a Given Loading
+  8. * [ ] Principal Stresses under a Given Loading
   
-  9- [ ] Deflection of Beams
+  9. * [ ] Deflection of Beams
   
-  10- [ ] Columns
+  10. * [ ] Columns
   
-  11- [ ] Energy Methods
+  11. * [ ] Energy Methods
   
