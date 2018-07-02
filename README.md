@@ -30,3 +30,5 @@ The codes are mostly in Matlab and Python. When needed, FEA simulations are run 
   
   11. * [ ] Energy Methods
   
+### Credits
+* [Chegg.com](https://www.Chegg.com) - Textbook solutions online
