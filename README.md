@@ -2,7 +2,7 @@
 
 This repository contains the solutions and codes for some of the computer problems in the Mechanics of Materials textbook (6th Ed) by Ferdinand P. Beer, E. Russell Johnston, Jr., John T. Dewolf, David F. Mazurek.
 
-A free copy of the book is available [here:] (http://www.pwut.ac.ir/FA/Colleges/Coll1/Files/Mechanics%20of%20materials,%20%20Ferdinand%20Beer%20%20et%20al.%20%E2%80%94%206th%20ed%20%282012%29.pdf)
+A free copy of the book is available * [here:] (http://www.pwut.ac.ir/FA/Colleges/Coll1/Files/Mechanics%20of%20materials,%20%20Ferdinand%20Beer%20%20et%20al.%20%E2%80%94%206th%20ed%20%282012%29.pdf)
 
 The codes are mostly in Matlab and Python. When needed, FEA simulations are run in SolidWorks and/or ANSYS and screenshots are attached to the files.
 
