@@ -10,7 +10,7 @@ The codes are mostly in Matlab and Python. When needed, FEA simulations are run 
 
   1. * [x] Introduction—Concept of Stress (1-2)
   
-  2. * [ ] Stress and Strain—Axial Loading
+  2. * [x] Stress and Strain—Axial Loading
   
   3. *  [ ] Torsion
   
