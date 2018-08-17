@@ -150,14 +150,3 @@ for j=1:1:ind+1
 end
 %%
 % Problem 5:
-
-%% 
-% Problem 6:
-
-
-
-
-
-
-
-
